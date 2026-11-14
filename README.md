@@ -35,12 +35,6 @@ When a cheaper airline flies a route but carries **fewer than 1 in 10 passengers
 - Smallest routes are 12.9% token vs. 1.5% for the largest (chi-square 130.0, p < 0.001)
 - Tracking the same 790 routes from 1996-2000 to 2021-2025: routes that **lost** their cheap airline rose **21% above the national trend**
 
-### Pricey cities are not regional. They cluster around a missing cheap airline.
-
-<img src="figures/11_maps.png" width="70%" alt="Maps of fare per mile and cheap airline share"/>
-
-These maps were only possible after rebuilding the coordinates (see below).
-
 ---
 
 ## Data preparation: rebuilding the coordinates
@@ -58,10 +52,10 @@ I dropped all 10 geocode columns and rebuilt them from the **BTS Master Coordina
 
 ## My role
 
-- Rebuilt and validated the geocodes (the step that made the maps possible)
+- Rebuilt and validated the geocodes for all 178 city markets
 - Built the H1 and H2 analysis: distance scatter, distance-band box plot, dominant vs. competitive comparison
 - Built the main H3 chart and ran the $43 gap test (CI, p-value, effect size)
-- Built the token-route size analysis, the 30-year route tracking, and both maps
+- Built the token-route size analysis and the 30-year route tracking
 - Reran the explanatory-power model on 2025 data
 
 ---
