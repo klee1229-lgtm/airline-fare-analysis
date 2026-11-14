@@ -65,13 +65,14 @@ I dropped all 10 geocode columns and rebuilt them from the **BTS Master Coordina
 ```
 notebooks/
   01_data_prep_and_geocode_rebuild.ipynb   geocode validation, coordinate rebuild, type cleaning
-  02_analysis_and_charts.ipynb             all hypotheses, statistical tests, and charts
+  02_analysis_and_charts.ipynb             hypothesis tests and every chart below
 data/
   airfare_enriched.csv                     cleaned data with rebuilt coordinates, metro population, income
 figures/                                   exported charts
 ```
 
-**Run it:** `pip install -r requirements.txt`, then open the notebooks. They were written in Google Colab, so update the file paths at the top (`PATH`, `MASTER_PATH`) to your local copy.
+**Run it:** `pip install -r requirements.txt`, then run `notebooks/02_analysis_and_charts.ipynb`. It reads `data/airfare_enriched.csv` and rebuilds every chart in `figures/`.
+Notebook 01 was written in Google Colab and reads the raw BTS downloads, so its file paths point to Google Drive.
 
 **Sources:** [BTS Consumer Airfare Report](https://data.transportation.gov/) · [BTS Master Coordinate table](https://www.transtats.bts.gov/)
 
