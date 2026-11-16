@@ -65,7 +65,7 @@ I dropped all 10 geocode columns and rebuilt them from the **BTS Master Coordina
 ```
 notebooks/
   01_data_prep_and_geocode_rebuild.ipynb   geocode validation, coordinate rebuild, type cleaning
-  02_analysis_and_charts.ipynb             the tests and all 8 charts in figures/
+  02_analysis_and_charts.ipynb             the tests and all 9 charts in figures/
 data/
   airfare_enriched.csv                     cleaned data with rebuilt coordinates
 figures/                                   exported charts
