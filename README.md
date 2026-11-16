@@ -67,7 +67,7 @@ notebooks/
   01_data_prep_and_geocode_rebuild.ipynb   geocode validation, coordinate rebuild, type cleaning
   02_analysis_and_charts.ipynb             hypothesis tests and every chart below
 data/
-  airfare_enriched.csv                     cleaned data with rebuilt coordinates, metro population, income
+  airfare_enriched.csv                     cleaned data with rebuilt coordinates
 figures/                                   exported charts
 ```
 
